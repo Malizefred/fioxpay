@@ -72,6 +72,11 @@ button{
     margin-top: 10px;
     text-align: center;
 }
+.send img{
+    color: rgb(206, 109, 73);
+    font-size: 30px;
+    text-align: center;
+}
 .hero-image{
     padding: 3rem;
     width: 50%;
@@ -154,7 +159,13 @@ button{
     height: 140px;
     border-radius: 5px;
     background-color:white;
-    box-shadow: 3px 4px 2px #e6c2ef ;
+    box-shadow: 3px 4px 2px #e6c2ef 3px 4px 2px #e6c2ef ;
+    text-align: center;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.send img{
+    color: orange;
 }
 
 
@@ -196,4 +207,12 @@ button{
         border-radius: 8px;
         padding: 0.2rem;
     }
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin: 3rem 0;
+    }
+    
 }
