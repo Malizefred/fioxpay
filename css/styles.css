@@ -1,0 +1,199 @@
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bg{
+    background-color:#e6c2ef;
+    box-shadow: 2px 3px 4px rgba(255, 250, 250);
+}
+button{
+    width: 10%;
+    height: 36px;
+    background-color:#a13aba;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.sign-btn{
+    background-color: white;
+    border: ipx solid #a13aba ;
+    box-shadow: 2px 3px 4px rgb(255, 250, 250);
+    color:#a13aba;
+}
+#container-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-container{
+    background-color: #a13aba;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex: 50%;
+    flex-basis: 2;
+}
+.download{
+    width: 250px;
+    height: 90px;
+}
+.circle{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e6c2ef;
+}
+.hero-text{
+    padding: 3rem;
+    width: 50%;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.par1{
+    color:#e6c2ef;
+    font-weight:bold;
+    font-family: 'roboto';
+    font-size: 30px;
+    line-height: 50px;
+}
+.down{
+    color: white;
+    font-family: 'poppins';
+    margin-top: 10px;
+    text-align: center;
+}
+.hero-image{
+    padding: 3rem;
+    width: 50%;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.par2{
+    color: white;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+.get-started-text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 30px;
+    background-color:#f7e6fc ;
+    /* color: #c768df; */
+    color: black;
+}
+.create-btn{
+    width: 20%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
+/* .float{
+    width: 100px;
+    height: 100px;
+    background-color: #a13aba;
+    padding: 2rem;
+    margin: ;
+    border-radius: 50%;
+    z-index: 30px;
+}
+#float6{
+    width: 500px;
+    height: 300px;
+    background-color: #a13aba;
+    padding: 2rem;
+    margin:auto ;
+    border-radius: 50%;
+    z-index: 30px;
+} */
+
+.partners-brands{
+   display: flex;
+   justify-content: space-between;
+   padding: 3rem;
+   margin-top: 30px;
+}
+.partners-brands img{
+    width: 170px;
+    height: auto;
+}
+
+#try{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.brands{
+    color: black;
+    font-family:"roboto";
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.send{
+    width: 30%;
+    height: 140px;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 3px 4px 2px #e6c2ef ;
+}
+
+
+@media (max-width: 768px) {
+    .hero-container{
+        background-color: #a13aba;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+      
+    }
+    .hero-text{
+        padding: 0.3rem;
+        width: 100%;
+        font-size: 22px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .hero-image{
+        padding: 1rem;
+        width: 100%;
+        height:550px;
+        font-size: 22px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .download3{
+        display: flex;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+    }
+    .create-btn{
+        width: 50%;
+        height: 50px;
+        border-radius: 8px;
+        padding: 0.2rem;
+    }
+}
