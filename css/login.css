@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    margin: auto;
+}
+.log-in-container{
+    background-color:#e6c2ef ;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 130px;
+    box-sizing: border-box;
+}
+#submit-btn{
+    width: 200px;
+    height: 36px;
+    background-color:#a13aba;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#password,#username{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius:5px ;
+}
